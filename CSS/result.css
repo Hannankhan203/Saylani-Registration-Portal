@@ -1,0 +1,48 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    color: blue;
+}
+
+.roll-no {
+    padding: 1rem 1rem 1rem 0.5rem;
+    width: 550px;
+    border: 1px solid green;
+    border-radius: 0.3rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+.submit {
+    width: 43%;
+    padding: 0.8rem;
+    background-color: rgb(58, 115, 228);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.submit:active {
+    background-color: rgba(58, 115, 228, 0.5);
+}
+
+.result-link {
+    color: green;
+}
+
+.results {
+    border-bottom: none;
+}

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(206, 206, 206);
+    border-left: none;
+    border-right: none;
+    gap: 10rem;
+    position: relative;
+    margin: auto 4rem;
+    height: 40vh;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("../Images/Background Image.avif");
+    background-position: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.icons {
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.center {
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    position: relative;
+    top: -15px;
+}
+
+.nav-section {
+    color: rgb(66, 65, 65);
+}
+
+.saylani-logo {
+    width: 60%;
+}
+
+.buttons {
+    position: absolute;
+    bottom: -40px;
+}
+
+.button {
+    padding: 0.6rem;
+    border: 1px solid rgb(206, 206, 206);
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.student {
+    padding: 0.5rem;
+    border-radius: 2rem;
+    border: 1px solid blue;
+    background: none;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.graduate-icon {
+    width: 20px;
+}

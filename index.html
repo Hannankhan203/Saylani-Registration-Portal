@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/reg.css">
+    <link rel="stylesheet" href="Phone CSS/style.css" media="screen and (max-width:640px)">
+    <title>Saylani Admission Portal</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="icons">
+            <img src="Images/Facebook Icon.png" alt="facebook icon" class="icons" />
+            <img src="Images/Instagram Icon.png" alt="instagram icon" class="icons" />
+            <img src="Images/Youtube Icon.png" alt="youtube icon" class="icons" />
+        </div>
+        <div class="center">
+            <img src="Images/Saylani Logo.png" alt="Saylani logo" class="saylani-logo" />
+            <h1>Registration Form - SMIT</h1>
+            <p class="nav-section">Services - Education - Registration</p>
+            <div class="buttons">
+                <button type="submit" class="registration button"><a href="index.html"
+                        class="reg-link">Registration</a></button>
+                <button type="submit" class="download button"><a href="id.html" class="id-link">Download ID
+                        Card</a></button>
+                <button type="submit" class="results button"><a href="result.html"
+                        class="result-link">Results</a></button>
+            </div>
+        </div>
+        <button class="student" type="submit"><img src="Images/Graduate Icon.png" alt="graduation icon"
+                class="graduate-icon">Student portal</button>
+    </div>
+
+    <div class="main-form-container">
+        <form action="#">
+            <div class="form-container">
+                <label for="country"> Select country
+                    <select name="country" id="country" class="country">
+                        <option value="Select country">Select country</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Turkey">Turkey</option>
+                    </select>
+                </label>
+                <label for="city">Select city
+                    <select name="city" id="city" class="city">
+                        <option value="Select city">Select city</option>
+                    </select>
+                </label>
+                <label for="courseevent">Select course or event
+                    <select name="course/event" id="courseevent" class="courseevent">
+                        <option value="Select course or event">Select course or event</option>
+                    </select>
+                </label>
+                <label for="proficiency">Select your computer proficiency
+                    <select name="proficiency" id="proficiency" class="proficiency">
+                        <option value="Select your computer proficiency">Select your computer proficiency</option>
+                        <option value="None">None</option>
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Advanced</option>
+                    </select>
+                </label>
+                <label for="name">Full name
+                    <input type="text" name="name" id="name" placeholder="Full name" />
+                </label>
+                <label for="fatherName">Father name
+                    <input type="text" name="fatherName" id="fatherName" placeholder="Father name" />
+                </label>
+                <label for="email">Email
+                    <input type="email" name="email" id="email" placeholder="Email" />
+                </label>
+                <label for="phone">Phone
+                    <input type="number" name="phone" id="phone" placeholder="Phone" />
+                </label>
+                <label for="cnic">CNIC
+                    <input type="number" name="cnic" id="cnic" placeholder="CNIC" />
+                </label>
+                <label for="fatherCnic">Father's CNIC (optional)
+                    <input type="number" name="fatherCnic" id="fatherCnic" placeholder="Father's CNIC (optional)" />
+                </label>
+                <label for="date">Date of birth
+                    <input type="date" name="date" id="date" class="date" />
+                </label>
+                <label for="gender">Select gender
+                    <select name="gender" id="gender" class="gender">
+                        <option value="Select gender">Select gender</option>
+                    </select>
+                </label>
+            </div>
+            <div class="form-container-2">
+                <label for="address">Address
+                    <input type="text" name="address" id="address" placeholder="Address" class="address">
+                </label>
+                <label for="qualification">Qualification
+                    <select name="qualification" id="qualification" class="qualification">
+                        <option value="last qualification">Last Qualification</option>
+                        <option value="Matric">Matric</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Undergraduate">Undergraduate</option>
+                        <option value="Gradute">Gradute</option>
+                        <option value="Masters">Masters</option>
+                        <option value="PHD">PHD</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </label>
+                <label for="laptop">Do you have a laptop?
+                    <select name="laptop" id="laptop" class="laptop">
+                        <option value="Do you have a laptop?">Do you have a laptop?</option>
+                        <option value="YES">YES</option>
+                        <option value="NO">NO</option>
+                    </select>
+                </label>
+            </div>
+            <div class="pic-container">
+                <div class="pic">+ Upload
+                    <label for="picture">
+                        <input type="file" name="picture" id="picture" />
+                    </label>
+                </div>
+                <div class="paragraphs">
+                    <p>With white or blue background</p>
+                    <p>File must be less than 1MB</p>
+                    <p>File type: jpg, jpeg, png</p>
+                    <p>Upload your recent passport size picture</p>
+                    <p>Your face should be clearly visible without any Glasses</p>
+                </div>
+            </div>
+            <hr>
+            <div class="last-section">
+                <ol>
+                    <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best
+                        of my
+                        knowledge. Further, I will abide by all the established and future regulations and policies of SWIT.
+                    </li>
+                    <li>I hereby accept the responsibilities of god conduct and guarantee that I will not be involved in any
+                        other
+                        acitvity, political or ethical, but learning during my stay in the program.</li>
+                    <li>Defiance will render my admission canceled at any point in time.</li>
+                    <li>Upon completion, of the course, I will complete the required project by SWIT.</li>
+                    <li>It is mandatory for female students to wear abaya/hijab in class.</li>
+                </ol>
+                <button type="submit" class="submit">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
